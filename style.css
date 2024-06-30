@@ -1,0 +1,13 @@
+.btn-primary:hover{
+    background-color:aqua;
+}
+canvas{
+    margin-top: 100px; 
+    animation-name:example;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 39px blue;}
+    to{box-shadow:1px 1px 39px orangered}
+}
